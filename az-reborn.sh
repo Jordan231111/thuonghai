@@ -83,7 +83,7 @@ case $ans in
     5  )  echo "Windows 10 Azure Virtual Desktop" > abc; echo MicrosoftWindowsDesktop:Windows-10:win10-21h2-avd:19044.2130.221006 > win  ;;
     6  )  echo "Windows 10 Pro" > abc; echo MicrosoftWindowsDesktop:Windows-10:win10-21h2-pro:19044.2130.221006 > win  ;;
     7  )  echo "Windows 11 Pro" > abc; echo MicrosoftWindowsDesktop:windows-11:win11-23h2-pro:22631.3296.240303 > win  ;;
-    8  )  echo "Windows 11 Pro Insider Preview" > abc; echo MicrosoftWindowsDesktop:windows11preview:win11-23h2-ent-cpc-os:22631.2428.231010 > win  ;;
+    8  )  echo "Windows 11 Pro Insider Preview" > abc; echo MicrosoftWindowsDesktop:windows11preview-arm64:win11-23h2-pro:22631.3296.240303 > win  ;;
     9  )  echo "Windows 11 Azure Virtual Desktop Insider Preview" > abc; echo MicrosoftWindowsDesktop:windows11preview:win11-22h2-avd:22621.521.220910 > win  ;;
     ""     )  echo "Empty choice!!!"; sleep 1; goto step2 ;;
     *      )  echo "Invalid choice!!!"; sleep 1 ; goto step2 ;;
